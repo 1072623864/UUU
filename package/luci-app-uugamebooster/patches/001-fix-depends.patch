@@ -1,0 +1,10 @@
+
+--- luci-app-uugamebooster.control.orig	2025-06-30
++++ luci-app-uugamebooster.control	2025-06-30
+@@ -3,7 +3,7 @@ Depends: \
+  libuci, \
+  libubus, \
+  +uugamebooster, \
+- +luci-base (>= 23.05), \
++ +luci-base (>= 24.10), \
+  +iptables-mod-nat-extra
